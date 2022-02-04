@@ -33,5 +33,17 @@
     <ClCompile Include="RecursiveBinarySearch.c">
       <Filter>Source Files\Chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="FibonacciFunc.c">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciFunc2.c">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="HanoiTowerMove.c">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise11729.c">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
