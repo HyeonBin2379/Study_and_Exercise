@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Chapter1">
+      <UniqueIdentifier>{64c1ac97-5c08-4780-b82f-841d1ff69d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter2">
+      <UniqueIdentifier>{52d772eb-f7d3-445b-9f9f-e018d21b54e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="BSWorstOpCount.c">
+      <Filter>Source Files\Chapter1</Filter>
     </ClCompile>
     <ClCompile Include="LinearSearch.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursiveBinarySearch.c">
+      <Filter>Source Files\Chapter2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

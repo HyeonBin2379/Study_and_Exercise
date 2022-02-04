@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int BSearch(int arr[], int len, int target)
+int BSearchRecur(int arr[], int len, int target)
 {
 	int first = 0;
 	int last = len-1;
@@ -21,13 +21,13 @@ int main(void)
 	int arr[9] = { 1, 2, 3, 7, 9, 12, 21, 23 ,27 };
 	int idx;
 	
-	idx= BSearch(arr, sizeof(arr) / sizeof(int), 3);
+	idx= BSearchRecur(arr, sizeof(arr) / sizeof(int), 3);
 	if (idx > -1)
 		printf("타겟 저장 인덱스: %d\n", idx);
 	else
 		printf("탐색 실패\n");
 
-	idx = BSearch(arr, sizeof(arr) / sizeof(int), 4);
+	idx = BSearchRecur(arr, sizeof(arr) / sizeof(int), 4);
 	if (idx > -1)
 		printf("타겟 저장 인덱스: %d\n", idx);
 	else
