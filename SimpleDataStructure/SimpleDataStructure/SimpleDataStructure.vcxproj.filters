@@ -13,37 +13,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Chapter1">
+    <Filter Include="Source Files\Examples">
+      <UniqueIdentifier>{9a47a859-ed00-474c-a0d3-8215d5bc402d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Chapter1">
       <UniqueIdentifier>{64c1ac97-5c08-4780-b82f-841d1ff69d12}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Chapter2">
+    <Filter Include="Source Files\Examples\Chapter2">
       <UniqueIdentifier>{52d772eb-f7d3-445b-9f9f-e018d21b54e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Chapter3">
+      <UniqueIdentifier>{c2c5e53e-bec2-46dd-b433-39851d9b6d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercises">
+      <UniqueIdentifier>{52afa5ca-4578-4be2-8d74-efaebd7dc737}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
-      <Filter>Source Files\Chapter1</Filter>
+      <Filter>Source Files\Examples\Chapter1</Filter>
     </ClCompile>
     <ClCompile Include="BSWorstOpCount.c">
-      <Filter>Source Files\Chapter1</Filter>
+      <Filter>Source Files\Examples\Chapter1</Filter>
     </ClCompile>
     <ClCompile Include="LinearSearch.c">
-      <Filter>Source Files\Chapter1</Filter>
+      <Filter>Source Files\Examples\Chapter1</Filter>
     </ClCompile>
     <ClCompile Include="RecursiveBinarySearch.c">
-      <Filter>Source Files\Chapter2</Filter>
+      <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="FibonacciFunc.c">
-      <Filter>Source Files\Chapter2</Filter>
+      <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="FibonacciFunc2.c">
-      <Filter>Source Files\Chapter2</Filter>
+      <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="HanoiTowerMove.c">
-      <Filter>Source Files\Chapter2</Filter>
+      <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="Exercise11729.c">
-      <Filter>Source Files\Chapter2</Filter>
+      <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
