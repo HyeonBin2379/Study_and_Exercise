@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Exercises">
       <UniqueIdentifier>{52afa5ca-4578-4be2-8d74-efaebd7dc737}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Exercises\Chapter3">
+      <UniqueIdentifier>{3898aefa-efb3-4286-b6e4-f2feb9b865eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
@@ -54,5 +57,49 @@
     <ClCompile Include="Exercise11729.c">
       <Filter>Source Files\Examples\Chapter2</Filter>
     </ClCompile>
+    <ClCompile Include="ListMain.c">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList.c">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.c">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList2.c">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="PointListMain.c">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList3.c">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise03-1.c">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise03-2.c">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="NameCard.c">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList2.h">
+      <Filter>Source Files\Examples\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList3.h">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCard.h">
+      <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
