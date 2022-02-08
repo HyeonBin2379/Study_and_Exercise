@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Exercises\Chapter3">
       <UniqueIdentifier>{3898aefa-efb3-4286-b6e4-f2feb9b865eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Examples\Chapter4">
+      <UniqueIdentifier>{deb497d8-3ae8-4189-9299-0414840dd784}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
@@ -84,6 +87,18 @@
     <ClCompile Include="NameCard.c">
       <Filter>Source Files\Exercises\Chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayRead.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedRead.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise04-1.c">
+      <Filter>Source Files\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayList4.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -100,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="NameCard.h">
       <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList4.h">
+      <Filter>Source Files\Examples\Chapter4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
