@@ -9,14 +9,15 @@ typedef struct _node
 
 int main(void)
 {
-	Node *head = NULL;
-	Node *tail = NULL;
-	Node *cur = NULL;
+	Node * head = NULL;
+	Node * tail = NULL;
+	Node * cur = NULL;
 
-	Node *newNode = NULL;
+	Node * newNode = NULL;
 	int readData;
 
-	while (1) {
+	while (1)
+	{
 		printf("자연수 입력: ");
 		scanf("%d", &readData);
 		if (readData < 1)
@@ -40,30 +41,34 @@ int main(void)
 		printf("저장된 데이터가 없습니다.\n");
 	else {
 		cur = head;
-		printf("%d ", cur->data);
+		printf("%d", cur->data);
 
 		while (cur->next != NULL) {
 			cur = cur->next;
-			printf("%d ", cur->data);
+			printf("->%d", cur->data);
 		}
 	}
 	printf("\n\n");
 
-	if (head == NULL)
+
+	if (head == NULL) {
+		printf("삭제된 데이터가 없습니다.\n");
 		return 0;
+	}
 	else {
 		Node * delNode = head;
 		Node * delNextNode = head->next;
-		printf("%d을(를) 제거합니다.\n", delNode->data);
+		printf("%d을(를) 삭제힙니다.\n", delNode->data);
 		free(delNode);
+		head = delNextNode;
 
 		while (delNextNode != NULL) {
 			delNode = delNextNode;
-			delNextNode = delNode->next;
-			printf("%d을(를) 제거합니다.\n", delNode->data);
+			delNextNode = delNextNode->next;
+			printf("%d을(를) 삭제힙니다.\n", delNode->data);
 			free(delNode);
+			head = delNextNode;
 		}
 	}
-
 	return 0;
 }
