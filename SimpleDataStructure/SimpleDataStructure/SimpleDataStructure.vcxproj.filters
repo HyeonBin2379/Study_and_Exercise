@@ -99,6 +99,21 @@
     <ClCompile Include="Exercise04-1.c">
       <Filter>Source Files\Exercises\Chapter4</Filter>
     </ClCompile>
+    <ClCompile Include="DLinkedList.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise04-2-1.c">
+      <Filter>Source Files\Exercises\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListMain.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise04-3.c">
+      <Filter>Source Files\Exercises\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedListSortMain.c">
+      <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -115,6 +130,9 @@
     </ClInclude>
     <ClInclude Include="NameCard.h">
       <Filter>Source Files\Exercises\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="DLinkedList.h">
+      <Filter>Source Files\Examples\Chapter4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
