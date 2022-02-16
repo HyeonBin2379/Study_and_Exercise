@@ -37,6 +37,18 @@
     <Filter Include="Source Files\Exercises\Chapter4">
       <UniqueIdentifier>{a9153620-80c3-4c78-98b8-dbc8b630b06a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Examples\Chapter5">
+      <UniqueIdentifier>{c0923312-fd60-4bae-969d-2eef5bad7be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Examples\Chapter6">
+      <UniqueIdentifier>{942ce1ca-803f-42d2-94bb-cafaf9497758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercises\Chapter5">
+      <UniqueIdentifier>{a8b8b3e9-8d79-49fc-8d68-e3f0f0504942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exercises\Chapter6">
+      <UniqueIdentifier>{d4aed867-4722-4bed-a3d2-00eb6167d2f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
@@ -114,6 +126,30 @@
     <ClCompile Include="DLinkedListSortMain.c">
       <Filter>Source Files\Examples\Chapter4</Filter>
     </ClCompile>
+    <ClCompile Include="CLinkedList.c">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedListMain.c">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList2.c">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise05-1.c">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedList.c">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedListMain.c">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDLinkedList2.c">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise05-2.c">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -133,6 +169,21 @@
     </ClInclude>
     <ClInclude Include="DLinkedList.h">
       <Filter>Source Files\Examples\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList2.h">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLinkedList.h">
+      <Filter>Source Files\Examples\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLinkedList2.h">
+      <Filter>Source Files\Exercises\Chapter5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
