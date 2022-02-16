@@ -150,6 +150,27 @@
     <ClCompile Include="Exercise05-2.c">
       <Filter>Source Files\Exercises\Chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayBasedStack.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBasedStackMain.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBasedStack.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBasedStackMain.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedList3.c">
+      <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise06-1.c">
+      <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="CLLBasedStack.c">
+      <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h">
@@ -184,6 +205,18 @@
     </ClInclude>
     <ClInclude Include="DBLinkedList2.h">
       <Filter>Source Files\Exercises\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBasedStack.h">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBasedStack.h">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="CLinkedList3.h">
+      <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="CLLBasedStack.h">
+      <Filter>Source Files\Exercises\Chapter6</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
