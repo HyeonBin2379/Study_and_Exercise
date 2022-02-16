@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Exercises\Chapter6">
       <UniqueIdentifier>{d4aed867-4722-4bed-a3d2-00eb6167d2f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Examples\Chapter6\Calculator">
+      <UniqueIdentifier>{7bded3f0-9d79-44a0-87a7-1af8142afa2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.c">
@@ -150,9 +153,6 @@
     <ClCompile Include="Exercise05-2.c">
       <Filter>Source Files\Exercises\Chapter5</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayBasedStack.c">
-      <Filter>Source Files\Examples\Chapter6</Filter>
-    </ClCompile>
     <ClCompile Include="ArrayBasedStackMain.c">
       <Filter>Source Files\Examples\Chapter6</Filter>
     </ClCompile>
@@ -170,6 +170,27 @@
     </ClCompile>
     <ClCompile Include="CLLBasedStack.c">
       <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixToPostfixMain.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="PostCalculatorMain.c">
+      <Filter>Source Files\Examples\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBasedStack.c">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculator.c">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixCalculatorMain.c">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="InfixToPostfix.c">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="PostCalculator.c">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -206,9 +227,6 @@
     <ClInclude Include="DBLinkedList2.h">
       <Filter>Source Files\Exercises\Chapter5</Filter>
     </ClInclude>
-    <ClInclude Include="ArrayBasedStack.h">
-      <Filter>Source Files\Examples\Chapter6</Filter>
-    </ClInclude>
     <ClInclude Include="ListBasedStack.h">
       <Filter>Source Files\Examples\Chapter6</Filter>
     </ClInclude>
@@ -217,6 +235,18 @@
     </ClInclude>
     <ClInclude Include="CLLBasedStack.h">
       <Filter>Source Files\Exercises\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBasedStack.h">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixCalculator.h">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="InfixToPostfix.h">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="PostCalculator.h">
+      <Filter>Source Files\Examples\Chapter6\Calculator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
